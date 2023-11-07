@@ -98,7 +98,7 @@ export default function Home() {
     if (selectLocation.location_id !== 0) {
       getRestaurantListByLocId();
     }
-  }, [selectLocation]);
+  }, [selectLocation, getRestaurantListByLocId]);
 
   return (
     <>
